@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "find"
+version = "0.0.1"
+dependencies = []
+requires-python = ">=3.8"
+authors = [
+  {name = "Carlotta Zomegnan", email = "carlotta.zomegnan@edu.unife.it"}
+]
+maintainers = [
+  {name = "Carlotta Zomegnan", email = "carlotta.zomegnan@edu.unife.it"}
+]
+description = "Agevola negoziante e cliente nell'acquisto."
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["inventario","carrello"]
+
+[project.scripts]
+find = "find:main"
