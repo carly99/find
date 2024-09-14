@@ -1,6 +1,4 @@
-import pytest
 import find.find as find
-
 class TestUnit:
     
     def test_aggiungi_prodotto_inventario_0(self):
